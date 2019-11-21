@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.cyt.entity">
+
+    <class name="com.cyt.entity.Emp" table="emp" schema="emp1">
+        <id name="eid" column="eid"/>
+        <property name="ename" column="ename"/>
+        <property name="epwd" column="epwd"/>
+        <property name="emoney" column="emoney"/>
+    </class>
+</hibernate-mapping>
