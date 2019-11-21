@@ -14,7 +14,7 @@ public class Test1 {
         EmpDao sd = new EmpDaoImpl();
         List<Emp> list =((EmpDaoImpl) sd).selectAll();
         for (Emp emp : list) {
-            System.out.println("125256");
+            System.out.println("789+6");
             System.out.println("emp = " + emp);
         }
 
